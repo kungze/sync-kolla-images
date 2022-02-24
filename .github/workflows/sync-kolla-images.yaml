@@ -1,0 +1,25 @@
+name: image-syncer
+
+on:
+  pull_request:
+  schedule:
+    - cron:  '00 5 * * *'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Download image-syncer
+        run: |
+          wget https://github.com/AliyunContainerService/image-syncer/releases/download/v1.3.1/image-syncer-v1.3.1-linux-amd64.tar.gz
+          tar xvfz image-syncer-v1.3.1-linux-amd64.tar.gz
+
+      - name: Sync images
+        run: |
+          ./image-syncer --auth=auth.yaml --images=images.yaml
+        env:
+          ALIYUN_REGISTRY_USERNAME: ${{ secrets.ALIYUN_REGISTRY_USERNAME }}
+          ALIYUN_REGISTRY_PASSWORD: ${{ secrets.ALIYUN_REGISTRY_PASSWORD }}
