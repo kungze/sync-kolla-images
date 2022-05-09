@@ -1,8 +1,5 @@
-quay.io/openstack.kolla/ubuntu-source-templates:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-templates
 quay.io/openstack.kolla/ubuntu-source-neutron-plugins:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-neutron-plugins
 quay.io/openstack.kolla/ubuntu-source-neutron-plugins:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-neutron-plugins
-quay.io/openstack.kolla/ubuntu-source-template-override:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-template-override
-quay.io/openstack.kolla/ubuntu-source-templates:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-templates
 quay.io/openstack.kolla/ubuntu-source-blazar-base:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-blazar-base
 quay.io/openstack.kolla/ubuntu-source-blazar-api:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-blazar-api
 quay.io/openstack.kolla/ubuntu-source-blazar-manager:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-blazar-manager
