@@ -240,3 +240,4 @@ quay.io/openstack.kolla/ubuntu-source-base:xena,yoga,master: registry.aliyuncs.c
 quay.io/openstack.kolla/ubuntu-source-zookeeper:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-zookeeper
 quay.io/openstack.kolla/ubuntu-source-neutron-server:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-neutron-server
 quay.io/openstack.kolla/ubuntu-source-base:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-source-base
+quay.io/openstack.kolla/ubuntu-binary-horizon:xena,yoga,master: registry.aliyuncs.com/kolla-helm/ubuntu-binary-horizon
